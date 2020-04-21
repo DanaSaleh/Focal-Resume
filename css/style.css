@@ -18,14 +18,20 @@ span {
 {
     background-color: #252F31;
     padding: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navbar .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo 
 {
-    color: #FFFFFF;
     font-size: 1.2em;
-    text-transform: uppercase;
-
 }
 
 .navbar .logo .ficon
@@ -38,5 +44,23 @@ span {
 .navbar .logo .green
 {
     color: #2DCC70;
+}
+
+.navbar .nav-links
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar .nav-links li
+{
+    margin-right: 10px;
+}
+
+.navbar .nav-links li:hover
+{
+    color: #2DCC70;
+    cursor: pointer;
 }
 
