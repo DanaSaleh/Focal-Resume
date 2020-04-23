@@ -64,3 +64,14 @@ span {
     cursor: pointer;
 }
 
+.values-goals-hobbies
+{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.values-goals-hobbies .part
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
