@@ -69,7 +69,7 @@ span {
     cursor: pointer;
 }
 
-.values-goals-hobbies
+.values-goals-hobbies .container
 {
     display: flex;
     justify-content: space-between;    
