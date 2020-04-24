@@ -1,12 +1,13 @@
-*
+*, h1
 {
     margin: 0px;
     padding: 0px;
 }
 
-body
+html, body
 {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 span {
@@ -19,6 +20,46 @@ span {
     width: 1170px; 
 }
 
+.hero
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-text
+{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.hero .hero-text h1
+{
+    border: 0px solid #FFFFFF;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 5px;
+}
+
+.hero .hero-text button
+{
+    background-color: transparent;
+    padding: 7px 20px;
+    border: 2px solid #FFFFFF;
+    color: white;
+    text-transform: uppercase;
+}
 .navbar
 {
     background-color: #252F31;
