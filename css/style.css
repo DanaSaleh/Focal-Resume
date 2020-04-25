@@ -37,6 +37,13 @@ p
     padding: 10px 20px;
 }
 
+.green-button:hover
+{
+    color: #FFFFFF;
+    background-color: #2DCC70;
+    cursor: pointer;
+}
+
 .per-90
 {
     width: 90%;
