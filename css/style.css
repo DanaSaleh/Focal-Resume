@@ -36,6 +36,26 @@ p
     border-width: 2px; 
     padding: 10px 20px;
 }
+
+.per-90
+{
+    width: 90%;
+}
+
+.per-80
+{
+    width: 80%;
+}
+
+.per-70
+{
+    width: 70%;
+}
+
+.per-60
+{
+    width: 60%;
+}
 /* end default styles */
 
 /* start of hero style */
@@ -178,6 +198,17 @@ p
 .my-skills .container
 {
     display: flex;
+    justify-content: space-between;
+}
+
+.my-skills .description 
+{
+    width: 47%;
+}
+
+.my-skills .skills
+{
+    width: 47%;
 }
 
 .my-skills .description h2
@@ -193,5 +224,31 @@ p
     margin-bottom: 30px;
 }
 
+.my-skills .skills .skill:not(:last-of-type)
+{
+    margin-bottom: 15px;
+}
 
+.my-skills .skills .skill > p
+{
+    font-weight: bold;
+    color: #252F31;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.my-skills .skills .skill div
+{
+    background-color: #FFFFFF;
+}
+
+.my-skills .skills .skill div p
+{
+    background-color: #2DCC70;
+    line-height: 20px;
+    text-align: right;
+    padding: 2px;
+    color: #FFFFFF;
+    
+}
 /* end of my skills style */
