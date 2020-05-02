@@ -361,4 +361,17 @@ p
 
 /* end of education and experience style */
 
+/* start of portfolio section */
+.portfolio
+{
+    padding-top: 55px;
+}
 
+.portfolio p
+{
+    text-align: center;
+}
+
+
+
+/* end of portfolio section */
