@@ -21,10 +21,24 @@ p
     font-size: 0.9em;
 }
 
+.wanted-hr
+{
+    margin: 55px 0px;
+}
+
 .container
 {
     margin: auto;
     width: 1170px; 
+}
+
+.title
+{
+    text-transform: uppercase;
+    color: #252F31;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .green-button
@@ -190,14 +204,6 @@ p
     margin-bottom: 60px;
 }
 
-.values-goals-hobbies .part .title
-{
-    text-transform: uppercase;
-    color: #252F31;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
 
 .values-goals-hobbies .part .content
 {
@@ -308,3 +314,51 @@ p
 }
 
 /* end of resume style */
+
+/* start of education and experience style */
+.education-and-experience-section .part
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-and-experience-section .part .general-description,
+.education-and-experience-section .part .info
+{
+    width: 48%;
+}
+
+.education-and-experience-section .part .general-description .description:not(:last-child)
+{
+    margin-bottom: 30px;
+}
+
+.education-and-experience-section .part .info > div
+{
+    margin-top: 40px;
+}
+
+
+
+.education-and-experience-section .part .info > div *:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+
+.education-and-experience-section .part .info .title
+{
+    font-size: 1em;
+}
+
+.education-and-experience-section .part .info .green-background
+{
+    background-color: seagreen;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+
+
+/* end of education and experience style */
+
+
