@@ -9,6 +9,7 @@ html, body
 {
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    color: #C4C4C4;
 }
 
 span {
@@ -17,7 +18,6 @@ span {
 
 p
 {
-    color: #C4C4C4;
     font-size: 0.9em;
 }
 
@@ -420,3 +420,44 @@ p
 
 
 /* end of portfolio section */
+
+
+/* start of contact me section */
+.contact-me
+{
+    background-color:#252F31;
+    padding: 60px 0px;
+    
+}
+
+.contact-me .title
+{
+    color: #FFF;
+}
+
+.contact-me .information > div
+{
+    margin-top: 25px;
+}
+
+.contact-me .information .contact-methods
+{
+    width: 30%;
+}
+
+.contact-me .information .contact-methods .method
+{
+    display: flex;
+}
+
+.contact-me .information .contact-methods .method .label
+{
+    color: #FFFFFF;
+    width: 50%;
+}
+
+.contact-me .information .contact-methods .method .value
+{
+    width: 50%;
+}
+/* start of contact me section */
