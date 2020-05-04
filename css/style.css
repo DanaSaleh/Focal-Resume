@@ -430,6 +430,17 @@ p
     
 }
 
+.contact-me .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me .container > div
+{
+    width: 48%;
+}
+
 .contact-me .title
 {
     color: #FFF;
@@ -456,8 +467,32 @@ p
     width: 50%;
 }
 
-.contact-me .information .contact-methods .method .value
+.contact-me .form .field
 {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
 }
-/* start of contact me section */
+
+.contact-me .form .field label
+{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.contact-me .form .field .field-input
+{
+    background-color: #4B5557;
+    border: none;
+    padding: 10px;
+}
+
+.contact-me .form .submit-button
+{
+    background-color: #191E22;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+/* end of contact me section */
