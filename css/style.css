@@ -361,6 +361,33 @@ p
 
 /* end of education and experience style */
 
+
+/* start of testimonial section */
+.testimonial
+{
+    background-color: #F2F2F2;
+    margin: 60px 0px;
+    padding: 60px;
+}
+
+.testimonial p
+{
+    text-align: center;
+}
+
+.testimonial p:not(:last-child)
+{
+    margin-bottom: 25px;
+}
+
+.testimonial .title
+{
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+/* end of testimonial section */
+
+
 /* start of portfolio section */
 .portfolio
 {
