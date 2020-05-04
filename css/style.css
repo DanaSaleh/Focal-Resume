@@ -85,7 +85,7 @@ p
     height: 0px;
     background-color: transparent;
     border: 30px solid transparent;
-    border-top-color: red;
+    border-top-color: inherit;
     margin-bottom: -60px;
 }
 /* end default styles */
@@ -186,6 +186,15 @@ p
 }
 /* end of navbar style */
 
+/* start of main style */
+.main > div:nth-of-type(odd)
+{
+    background-color: #F2F2F2;
+    border: 0px solid #F2F2F2;
+}
+
+/* end of main style */
+
 /* start of values-goals-hobbies style */
 .values-goals-hobbies .container
 {
@@ -215,7 +224,6 @@ p
 /* start of my skills style */
 .my-skills
 {
-    background-color: #F2F2F2;
     padding: 60px 0px;  
 }
 
@@ -280,7 +288,6 @@ p
 /*start of resume style */
 .resume
 {
-    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -308,14 +315,14 @@ p
     padding-bottom: 30px;
 }
 
-.resume .arrow-down
-{
-    border-top-color: #FFFFFF;
-}
-
 /* end of resume style */
 
 /* start of education and experience style */
+.education-and-experience-section
+{
+    padding: 30px 0px;
+}
+
 .education-and-experience-section .part
 {
     display: flex;
@@ -365,8 +372,6 @@ p
 /* start of testimonial section */
 .testimonial
 {
-    background-color: #F2F2F2;
-    margin: 60px 0px;
     padding: 60px;
 }
 
