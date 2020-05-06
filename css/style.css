@@ -187,20 +187,22 @@ p
 /* end of navbar style */
 
 /* start of main style */
-.main > div:nth-of-type(odd)
+.main > div:nth-of-type(even)
 {
     background-color: #F2F2F2;
     border: 0px solid #F2F2F2;
+}
+
+.main > div:nth-of-type(odd)
+{
+    background-color: #FFFFFF;
+    border: 0px solid #FFFFFF;
 }
 
 /* end of main style */
 
 /*start of about me style*/
 
-.about-me
-{
-    margin-top: 55px;
-}
 .about-me .container
 {
     display: flex;
@@ -214,6 +216,7 @@ p
 
 .about-me .about-me-content
 {
+    padding: 50px 0px;
     width: 60%;
 }
 
@@ -225,10 +228,17 @@ p
 .about-me .about-me-content .about-me-skills
 {
     display: flex;
-    margin-top: 50px;
+    flex-wrap: wrap;
 }
 
-.about-me .about-me-content .about-me-skills i
+.about-me .about-me-content .about-me-skill
+{
+    display: flex;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.about-me .about-me-content .about-me-skill i
 {
     color: green;
     font-size: 1.8em;
