@@ -221,6 +221,19 @@ p
 {
     margin-bottom: 25px;
 }
+
+.about-me .about-me-content .about-me-skills
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-me .about-me-content .about-me-skills i
+{
+    color: green;
+    font-size: 1.8em;
+    margin-right: 22px;
+}
 /*start of about me style*/
 
 /* start of values-goals-hobbies style */
