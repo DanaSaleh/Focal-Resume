@@ -195,6 +195,34 @@ p
 
 /* end of main style */
 
+/*start of about me style*/
+
+.about-me
+{
+    margin-top: 55px;
+}
+.about-me .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me img
+{
+    width: 33%;
+}
+
+.about-me .about-me-content
+{
+    width: 60%;
+}
+
+.about-me .about-me-content p:not(:last-child)
+{
+    margin-bottom: 25px;
+}
+/*start of about me style*/
+
 /* start of values-goals-hobbies style */
 .values-goals-hobbies .container
 {
