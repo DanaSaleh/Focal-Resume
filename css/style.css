@@ -453,7 +453,7 @@ p
 
 .contact-me .information .contact-methods
 {
-    width: 30%;
+    width: 50%;
 }
 
 .contact-me .information .contact-methods .method
@@ -496,3 +496,32 @@ p
     padding: 10px 30px;
 }
 /* end of contact me section */
+
+/*start of footer section */
+.footer
+{
+    background-color: #191E22;
+    padding: 30px;
+}
+
+.footer .container p
+{
+    color: #4B5557;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .container .social-media-links
+{
+    color: #4B5557;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer .container .social-media-links i:hover
+{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/*end of footer section */
